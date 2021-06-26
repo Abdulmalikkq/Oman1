@@ -1,0 +1,111 @@
+.my-bg-photo {
+  background: url('images/2.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.my-bg-photo * {
+  position: relative;
+  z-index: 10;
+}
+
+.my-bg-photo:before {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: .65;
+}
+
+.my-bg-photo1 {
+  background: url('images/21.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.my-bg-photo1 * {
+  position: relative;
+  z-index: 10;
+}
+
+.my-bg-photo1:before {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: .65;
+}
+
+.my-bg-photo2 {
+  background: url('images/20.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.my-bg-photo2 * {
+  position: relative;
+  z-index: 10;
+}
+
+.my-bg-photo2:before {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: .65;
+}
+
+.my-bg-photo3 {
+  background: url('images/24.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.my-bg-photo3 * {
+  position: relative;
+  z-index: 10;
+}
+
+.my-bg-photo3:before {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: .65;
+}
+
+.my-custom-container {
+  max-width: 800px;
+}
+
+.accordion .btn-link:focus {
+  box-shadow: none;
+}
+
+.my-drawing {
+  transition: all .33s ease-out;
+}
+
+.my-drawing:hover {
+  transform: scale(1.054) rotate(15deg);
+}
